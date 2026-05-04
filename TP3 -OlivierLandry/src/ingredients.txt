@@ -1,0 +1,12 @@
+Poudre bleue|25
+Poudre rose|15
+Mandagore|250
+Eau de miel|5
+Infusion de verveine|25
+Liveche|10
+Menthe poivree|10
+Figues|20
+Armoise|50
+Eau du fleuve Lethe|75
+Baies de gui|55
+Brins de Valerane|200

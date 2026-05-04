@@ -1,0 +1,4 @@
+Philtre de paix|Poudre bleue|Poudre rose|Mandagore|3|250
+Philtre Revigorant|Eau de miel|Infusion de verveine|Liveche|2|150
+Elixir d'Euphorie|Menthe poivree|Figues|Armoise|1|100
+Potion d'Amnesie|Eau du fleuve Lethe|Baies de gui|Brins de Valerane|5|400
