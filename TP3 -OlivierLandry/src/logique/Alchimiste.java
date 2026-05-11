@@ -2,10 +2,6 @@ package logique;
 
 import java.util.Random;
 
-/**
- * Author : Olivier Landry
- * Ordre de conception : 3e
- */
 
 public class Alchimiste {
     public static final int EXPERIENCE_POUR_NIVEAU_SUIVANT = 500;

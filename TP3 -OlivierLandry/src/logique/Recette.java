@@ -78,7 +78,10 @@ public class Recette
     @Override
     public String toString()
     {
-        return String.format("%s|%s|%s|%s|%s|%s", this.getNom(), this.ingredients.get(0).getNom(), this.ingredients.get(1).getNom(), this.ingredients.get(2).getNom(), this.getDifficulte(), this.getPointExperience());
+        return String.format("%s|%s|%s|%s|%s|%s", this.getNom(),
+                this.ingredients.get(0).getNom(),
+                this.ingredients.get(1).getNom(), this.ingredients.get(2).getNom(),
+                this.getDifficulte(), this.getPointExperience());
     }
 
 
