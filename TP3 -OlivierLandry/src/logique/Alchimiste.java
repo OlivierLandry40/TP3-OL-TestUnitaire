@@ -36,6 +36,13 @@ public class Alchimiste {
         return this.experience;
     }
 
+    /**
+     * Préconditions :
+     * - nom != null
+     * - nom.length() >= 6
+     *
+     * @throws IllegalArgumentException si la précondition n'est pas respectée
+     */
     private void setNom(String nom) {
 
         if (nom == null)
@@ -55,6 +62,20 @@ public class Alchimiste {
         this.experience = experience;
     }
 
+    /**
+     * Tente de fabriquer une potion à partir d'une recette donnée.
+     *
+     * Préconditions :
+     * - recette != null
+     *
+     * Postconditions :
+     * - Si réussite l'expérience de l'alchimiste est augmentée
+     * - Retourne true si la potion est réussie, false sinon
+     *
+     * @param recette La recette à utiliser (non null)
+     * @return true si la fabrication est un succès, false sinon
+     * @throws IllegalArgumentException si recette est null
+     */
     public boolean fairePotion(Recette recette) {
 
         if (recette == null)
